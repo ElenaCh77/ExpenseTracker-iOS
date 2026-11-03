@@ -1,29 +1,37 @@
 # Expense Tracker - iOS App
 
-A student-built iOS app for keeping track of income and expenses. Built with **SwiftUI** in **Xcode**.
+Expense Tracker — iOS App
+Expense Tracker is an iOS application built with SwiftUI to help users organize their personal finances. Users can record income and expenses, browse transactions, and review monthly financial summaries.
+Features
+- Add income and expense transactions with an amount, category, and date
+- Browse transactions and remove entries
+- Filter transaction history by month
+- View monthly income, expenses, and remaining balance
+- Explore income and expense totals in a pie chart
+- Store transaction data locally on the device
+- Navigate between transaction history, summaries, and transaction entry
+Technologies Used
+- Swift — application logic and data models
+- SwiftUI — user interface and navigation
+- Swift Charts — visual financial summaries
+- ObservableObject and @Published — updates to transaction data across views
+- Codable and UserDefaults — local transaction storage
+Project Structure
+File	Purpose
+ExpenseTrackerApp.swift	Application entry point
+WelcomeView.swift	Welcome screen
+ContentView.swift	Main navigation
+AddTransactionView.swift	Form for adding transactions
+TransactionsListView.swift	Transaction history
+SummaryView.swift	Monthly financial overview and chart
+TransactionsViewModel.swift	Transaction management and calculations
+Transaction.swift	Transaction data model
+Category.swift	Income and expense categories
 
-## Features
-- Welcome screen and easy tab navigation
-- Add income or expense transactions with amount, category, and date
-- View and delete transactions
-- Filter transactions and summaries by selected date/month
-- Pie chart comparing income and expenses
-- See monthly totals and balance
-- Save transactions locally on the device using `UserDefaults`
 
-## Technologies
-- **Swift:** the programming language
-- **SwiftUI:** the app screens and buttons
-- **Swift Charts:** the pie chart
-- **ObservableObject and @Published:** keep the screens updated
-- **UserDefaults and Codable:** simple local storage
-
-## How to run
-1. Download and unzip this project on a **Mac**.
-2. Open `ExpenseTracker.xcodeproj` in Xcode.
-3. Choose an iPhone simulator, then click **Run** (▶).
-4. If Xcode asks about signing, select your development team for a physical iPhone; a simulator usually does not require signing.
-
-## Project files
-Swift source files are in `ExpenseTracker/`.
-
+Running the App
+1. Open ExpenseTracker.xcodeproj in Xcode on a Mac.
+2. Select an iOS simulator or a connected iPhone.
+3. Build and run the application.
+About the Project
+This project demonstrates iOS development fundamentals, including SwiftUI layouts, reusable views, state management, data modeling, local storage, and data visualization.
