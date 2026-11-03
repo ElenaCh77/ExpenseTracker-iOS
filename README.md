@@ -1,4 +1,4 @@
-# Expense Tracker — iOS App
+# Expense Tracker - iOS App
 
 A student-built iOS app for keeping track of income and expenses. Built with **SwiftUI** in **Xcode**.
 
@@ -27,5 +27,3 @@ A student-built iOS app for keeping track of income and expenses. Built with **S
 ## Project files
 Swift source files are in `ExpenseTracker/`.
 
-## Note
-This is a reconstructed version based on an earlier student project conversation, not an exact export of the original Xcode project. It has not been compiled in Xcode in this environment.
