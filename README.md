@@ -1,4 +1,4 @@
-# Expense Tracker — iOS App
+# Expense Tracker - iOS App
 
 Expense Tracker is an iOS application built with SwiftUI to help users organize their personal finances. Users can record income and expenses, browse transactions, and review monthly financial summaries.
 
@@ -14,11 +14,11 @@ Expense Tracker is an iOS application built with SwiftUI to help users organize 
 
 ## Technologies Used
 
-- **Swift** — application logic and data models
-- **SwiftUI** — user interface and navigation
-- **Swift Charts** — visual financial summaries
-- **ObservableObject and @Published** — updates to transaction data across views
-- **Codable and UserDefaults** — local transaction storage
+- **Swift** - application logic and data models
+- **SwiftUI** - user interface and navigation
+- **Swift Charts** - visual financial summaries
+- **ObservableObject and @Published** - updates to transaction data across views
+- **Codable and UserDefaults** - local transaction storage
 
 ## Project Structure
 
